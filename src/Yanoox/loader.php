@@ -28,7 +28,7 @@ class loader extends PluginBase{
         self::$instance = $this;
         $this->initResources();
         $this->getServer()->getPluginManager()->registerEvents(new eventListener(), $this);
-
+     
         $this->getLogger()->info("§3|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━|");
         $this->getLogger()->info("§3|The LightningItem plugin is loaded|");
         $this->getLogger()->info("§3|━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━|");
