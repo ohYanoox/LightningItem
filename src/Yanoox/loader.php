@@ -10,7 +10,7 @@ __    __      ___   __   _   _____   _____  __    __
 Plugin's name: LightningItem
 Author: Yanoox
 Plugin's version: 0.1
-Plugin's api: 3.0.0
+Plugin's api: 4.0.0
 For: everyone
  */
 namespace Yanoox;
