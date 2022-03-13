@@ -69,7 +69,7 @@ class eventListener extends PoolData implements Listener{
 
         $bolt = new AddActorPacket();
         $bolt->type = "minecraft:lightning_bolt";
-        $bolt->actorRuntimeId = Entity::nextRuntimeId();
+        $bolt->actorRuntimeId = $bolt->actorUniqueId = Entity::nextRuntimeId();
         $bolt->position = $victim->getPosition();
 
         $victim->getPosition()->getWorld()->broadcastPacketToViewers($victim->getPosition()->asVector3(), $bolt);
